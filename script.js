@@ -5,5 +5,9 @@ $(document).ready(function(){
         }else{
             $('.navbar').removeClass("sticky")
         }
+    });
+    //togle menu/navbar script
+    $('.menu-btn').click(function(){
+        $('.navbar .menu').toggleClass("active")
     })
 });
