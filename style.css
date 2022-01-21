@@ -5,15 +5,16 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-/*navbar styling*/
 .max-width{
     max-width: 1300px;
     padding: 0 80px;
     margin: auto;
 }
+/*navbar styling*/
 .navbar{
     position: fixed;
     width:100%;
+    z-index: 999;
     padding: 30px 0;   
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
@@ -108,6 +109,64 @@
     color: crimson;
     background: none;
 }
+/* about a section styling */
+section{
+    padding: 100px 0;
+}
+.about{
+    font-family:'Poppins', sans-serif;
+}
+.about .title{
+    position: relative;
+    text-align: center;
+    font-size:   40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family:'Ubuntu', sans-serif;
+}
+.about .title::before{
+    content: ""; 
+    position:absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform:translateX(-50%);
+}
+.about .title::after{
+    content: "who i am"; 
+    position:absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    color: crimson;
+    padding:5px;
+    background: #fff;
+    transform:translateX(-50%);
+}
+.about .about-content .left img{
+    height: 400px;
+    width:400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* responsive media query start */
 @media (max-width: 1104px){
 .home .max-width{
