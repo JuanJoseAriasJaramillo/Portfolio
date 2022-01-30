@@ -369,10 +369,27 @@ width: 45%;
 .contact .right form .field,.contact .right form .fields .field{
     height: 45px;
     width: 100%;
+    margin-bottom: 15px;
+}
+.contact .right form .name{
+    margin-right: 10px;
+
+}
+.contact .right form .email{
+    margin-left: 10px;
+    
 }
 .contact .right form .field input{
     height: 100%;
     width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    outline: none;
+    padding:0 15px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+
+
 }
 
 /* responsive media query start */
