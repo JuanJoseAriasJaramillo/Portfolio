@@ -375,6 +375,13 @@ width: 45%;
 .contact .title::after{
     content: "get in touch";
 }
+.contact-content.arreglo {
+    justify-content: center;
+}
+
+
+
+
 .contact .contact-content .column{
     width: calc(50% - 30px);
 }
@@ -467,6 +474,7 @@ width: 45%;
     color: crimson;
     background: none;
 }
+
 
 /*footer*/
     footer{
