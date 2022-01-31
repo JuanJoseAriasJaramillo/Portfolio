@@ -4,7 +4,8 @@ $(document).ready(function(){
             $('.navbar').addClass("sticky")
         }else{
             $('.navbar').removeClass("sticky")
-        }if(this.scroll > 500){
+        }
+        if(this.scroll > 500){
             $('.scroll-up-btn').addClass("show")
         }else{
             $('.scroll-up-btn').removeClass("show")
@@ -13,13 +14,26 @@ $(document).ready(function(){
     });
     //slide up script
     $('.scroll-up-btn').click(function(){
-        $('html').animate({scrollTop: 0})
-    })
+        $('html').animate({scrollTop: 0});
+    });
 
     //togle menu/navbar script
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active")
         $('.menu-btn i').toggleClass("active")
 
-    })
+    });
+    //typing animation script
+    var typed = new Typed(".typing", {
+        strings: ["Learner","Web Developer","RcPlaner"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop:true
+    });
+    var typed = new Typed(".typing-2", {
+        strings: ["Learner","Web Developer","RcPlaner"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop:true
+    });
 });
