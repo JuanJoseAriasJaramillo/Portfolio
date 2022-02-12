@@ -202,7 +202,7 @@ section .title::after{
 }
 
 .about .title::after{
-    content:"who i am";
+    content:"quien soy";
 }
 
 
@@ -255,7 +255,7 @@ width: 45%;
 }
 .services .title::after{
     background: #111;
-    content: "What i provide";
+    content: "Que Ofrezco";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -292,7 +292,7 @@ width: 45%;
 }
 /*skills section styling*/
 .skills .title::after{
-    content: "what i know";
+    content: "lo que se";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
